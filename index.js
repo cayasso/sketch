@@ -7,16 +7,10 @@ var Path = require('./path')
   , classes = require('classes');
 
 /**
- * Create a new `Sketch` for the given `canvas`.
- *
- * @param {Canvas} canvas
- * @return {Sketch}
- * @api public
+ * Exports `Sketch`.
  */
 
-module.exports = function(canvas){
-  return new Sketch(canvas);
-};
+module.exports = Sketch;
 
 /**
  * Initialize a new `Sketch` with the given `canvas`.
